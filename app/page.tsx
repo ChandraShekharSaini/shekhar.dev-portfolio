@@ -1,6 +1,8 @@
-
+import Hero from "@/components/Home/Hero/Hero"
 export default function Page() {
   return(
-    <div>I am Bro !!</div>
+    <div>
+      <Hero/>
+    </div>
   )
 }
