@@ -1,8 +1,10 @@
-import Hero from "@/components/Home/Hero/Hero"
+import Hero from "@/components/Home/Hero/Hero";
+import About from "@/components/Home/About/About";
 export default function Page() {
-  return(
+  return (
     <div>
-      <Hero/>
+      <Hero />
+      <About />
     </div>
-  )
+  );
 }
