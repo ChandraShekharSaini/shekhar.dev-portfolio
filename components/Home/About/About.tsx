@@ -7,7 +7,7 @@ const About = () => {
     <div className="pt-16 pb-16 bg-[#050709]">
       <SectionHeading>About Me</SectionHeading>
       <div className="w-[80%] mx-auto grid grid-cols-1 lg:grid-cols-2 items-center mt-20">
-        <div>
+        <div data-aos="fade-left" data-aos-anchor-placement="top-center">
           <h1 className="text-bg text-[26px] sm:text-3xl md:text-4xl lg:text-5xl font-bold text-gray-200">
             {aboutInfo.title}
           </h1>
@@ -45,7 +45,7 @@ const About = () => {
             </div>
           </div>
         </div>
-        <div className="grid grid-cols-2 gap-16 items-center lg:mx-auto border-2 border-blue-50">
+        <div data-aos="zoom-in" data-aos-delay = "150" data-aos-anchor-placement="top-center" className="grid grid-cols-2 gap-16 items-center lg:mx-auto">
           <div>
             <Image
               src={"/images/customer.png"}
