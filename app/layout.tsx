@@ -15,6 +15,10 @@ export const metadata: Metadata = {
   description: "Webdev portfolio",
 };
 
+// <AnimatedCursor innerSize={8} outerSize={35} innerScale={2} outerScale={2} innerStyle={{background:"white"}} outerStyle={{
+//             border:"3px solid white"
+//           }} color='193, 11, 111'  outerAlpha={0}/>
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -24,9 +28,7 @@ export default function RootLayout({
     <html lang="en" className="custom-scrollbar">
       <body className={font.className}>
         <div className="hidden sm:block">
-          <AnimatedCursor innerSize={8} outerSize={35} innerScale={2} outerScale={2} innerStyle={{background:"white"}} outerStyle={{
-            border:"3px solid white"
-          }} color='193, 11, 111'  outerAlpha={0}/>
+          
         </div>
         <ResponsiveNavbar />
         {children}
