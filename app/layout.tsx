@@ -3,7 +3,7 @@ import { Sora } from "next/font/google";
 import "./globals.css";
 import ResponsiveNavbar from "@/components/Navbar/ResponsiveNavbar";
 import ScrollToTop from "@/components/Helper/ScrollToTop";
-import AnimatedCursor from "react-animated-cursor"
+
 
 const font = Sora({
   weight: ["100", "200", "300", "400", "500", "600", "700", "800"],
